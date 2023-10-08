@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+*{
+    margin:0px;
+}
+#logom{
+    position: absolute;
+    top: -9%;
+    left: 32%;
+}
+
+a{
+    text-decoration: none;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 4px 6px;
+    border-radius: 8px;
+    padding: 10px 60px;
+}
+a:hover{
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 4px 6px;
+}
+
+.nav_bar{
+
+display: flex;
+justify-content: space-around;
+position: relative;
+top:200px;
+font-size: 20px;
+
+}
+
+
+
+.but{
+ position: absolute;
+ top: 45%;
+ left: 10%;
+
+}
+
+#who{
+    font-size: 55px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+#stm{
+    font-size: 18px;
+}
+
+#foto{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    border-radius: 80px;
+    box-shadow: 8px 8px 8px .5px rgb(226, 226, 50); 
+}
+
+#learn{
+    color:rgb(0, 0, 0);
+    background-color: yellow;
+    display: inline-block;
+    box-shadow: 2px 4px 6px;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+#learn:hover{
+    background-color: black;
+    color: yellow;
+}
+
+#servis{
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    font-size: 30px;
+    
+}
+.second{
+    position: absolute;
+    top: 125%;
+}
+.second_first{
+    position: absolute;
+    top: 125%;
+    left: 100px;
+    letter-spacing: 2px;
+    padding: 20px;
+    background-color: yellow;
+    font-weight:200;
+    border-radius:100px;
+    box-shadow: 4px 6px 8px black, 3px 5px 8px 10px yellow;
+ }
+ #ikincipar{
+    font-size: 19px;
+ }
+
+.second_second{
+    position: absolute;
+    top: 125%;
+    left: 600px;
+    letter-spacing: 2px;
+    padding: 20px;
+    background-color: yellow;
+    font-weight:200;
+    box-shadow: 4px 6px 8px black, 3px 5px 8px 10px yellow;
+    border-radius:100px;
+ }
+ #ikincipar{
+    font-size: 19px;
+ }
+ .second_three{
+    position: absolute;
+    top: 125%;
+    left: 1100px;
+    letter-spacing: 2px;
+    padding: 20px;
+    background-color:yellow;
+    font-weight:200;
+    border-radius:100px;
+    box-shadow: 4px 6px 8px black, 3px 5px 8px 10px yellow;
+ }
+ #ikincipar{
+    font-size: 19px;
+ }
+
+ #Learn_more{
+text-align: center;
+background-color: black;
+box-shadow: 2px 4px 6px;
+color: yellow;
+border-radius:100px;
+padding: 15px;
+margin: 15px;
+ }
+
+.productss{
+    position: absolute;
+    top: 235%;
+    left: 140px;
+    background-color:yellow;
+   box-shadow: 4px 6px 8px black, 3px 5px 8px 10px yellow;
+    font-weight: 600;
+    border-radius: 15px;
+    word-spacing: 5px;
+       
+   }
+
+   .Software{
+    position: absolute;
+    top: 235%;
+    left: 600px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 25px;
+
+   }
+
+   .Software p,h2{
+    letter-spacing: 2px;
+    text-align: center;
+   }
+   .Software h3{
+    text-align: center;
+    color: white;
+    
+   }
+
+   .Gaming{
+    position: absolute;
+    top: 235%;
+    left: 1100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 25px;}
+
+    .Gaming p,h2{
+        letter-spacing: 2px;
+        text-align: center; }
+
+        .Gaming h3{
+            text-align: center;
+            color: white;
+            
+           }
+
+           #clip_1{
+            -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 39%, 62% 79%, 0 100%, 0 0);
+            clip-path: polygon(50% 0%, 100% 0, 100% 39%, 62% 79%, 0 100%, 0 0);
+            
+            
+           }
+
+           #explore{
+            background-color: white;
+            color: black;
+            box-shadow: 4px 6px 8px;
+            border-radius: 25px;
+            padding: 15px;
+            margin: 15px;
+           }
+           #explore:hover{
+            color: white;
+            background-color: black;
+            
+           }
+           #base{
+            position: absolute;
+            top: 225%;
+            left: 250px;
+           }
+           .hrr {position: relative;
+            top: 1600px;
+            right: 455px;
+            width: 150px;
+            box-shadow: 1px 2px 4px rgb(251, 255, 0);
+            }            
+
+           .loop{
+            position: absolute;
+            top: 2300px;
+            height: 15vh;
+            width: 98.9vw;
+            background-color: whitesmoke; 
+            
+            
+
+           }
+           .infinite{
+            animation: loopx 4s  linear 1s infinite;
+            display: flex;
+            justify-content: space-around;
+
+           }
+
+          
+
+           @keyframes loopx{
+            0% { left: 0px;}
+            100% { left: 120px;}
+           }
+
+           #relative{
+          margin: 15px;
+          padding-left: 55px;
+           }
